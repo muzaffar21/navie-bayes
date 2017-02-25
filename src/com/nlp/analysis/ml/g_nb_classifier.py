@@ -14,7 +14,7 @@ def get_gaussian_prob_dist(weight, mean, variance):
     return gaussian_prob_dist
 
 
-class classifier():
+class classifier:
     label_prob_map = {}
     per_class_per_feature_mv_map = {}
 
